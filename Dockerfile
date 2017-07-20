@@ -1,6 +1,7 @@
 FROM tozd/runit
 
-EXPOSE 25/tcp 465/tcp 587/tcp
+# EXPOSE 25/tcp 
+EXPOSE 465/tcp 587/tcp
 
 VOLUME /var/log/postfix
 VOLUME /var/spool/postfix
